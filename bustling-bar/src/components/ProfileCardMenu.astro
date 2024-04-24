@@ -17,10 +17,13 @@ const activeClass = "on"; // For primary color replace with `active` class
       referrerpolicy="no-referrer-when-downgrade">Contacto</a
     >
   </li>
-  <li><a class="menu-item p-4" id="music" href="https://www.youtube.com/watch?v=RyAbSOeMHiA" target="_blank">Escucha esto ❤️</a></li>
+  <!--
+  <li><a class="menu-item p-4" id="music" href="https://www.youtube.com/watch?v=RyAbSOeMHiA" target="_blank">Escucha esto ❤️</a></li>-->
 </ul>
+
 
 <script define:vars={{ sideBarActiveItemID: PageID, activeClass: activeClass }}>
   const activeItemElem = document.getElementById(sideBarActiveItemID);
   activeItemElem && activeItemElem.classList.add(activeClass);
 </script>
+
