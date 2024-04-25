@@ -155,7 +155,7 @@ int main()
         for (int j = 0; j + 1 < v[i].size(); j += 2)
         {
             ans += v[i][j] + v[i][j + 1];
-        }npm run dev
+        }
     }
     printf("%lld\n", ans);
     return 0;
