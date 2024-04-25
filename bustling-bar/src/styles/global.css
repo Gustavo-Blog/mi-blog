@@ -432,6 +432,10 @@ hr {
 	.sidebtn {
 		transform: translateX(200%);
 	}
+
+	h1{
+		font-size: 40px;
+	}
 }
 
 .menu-item {
